@@ -3,19 +3,23 @@
     "id": 1,
     "nombre": "Samuel",
     "telefono": "1234567890",
-    "imagen" : "/images/image 1.jpeg"
+    "imagen" : "/images/image 1.jpeg",
+    "contraseña": "samuel"
+
 },
 {
     "id": 2,
     "nombre": "Cris",
     "telefono": "9876543210",
-    "imagen": "/images/image 2.jpeg"
+    "imagen": "/images/image 2.jpeg",
+    "contraseña": "cris"
     },
 {
     "id": 3,
     "nombre": "Ansu",
     "telefono": "9876543210",
-    "imagen": "/images/image 3.jpeg"
+    "imagen": "/images/image 3.jpeg",
+    "contraseña": "ansu"
 }
 ],
 "Conversaciones": [
