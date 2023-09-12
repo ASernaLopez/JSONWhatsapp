@@ -1,29 +1,177 @@
-{"usuarios": [
 {
-    "id": 1,
-    "nombre": "Samuel",
-    "telefono": "1234567890",
-    "imagen" : "/images/image 1.jpeg",
-    "contraseña": "samuel"
-
-},
-{
-    "id": 2,
-    "nombre": "Cris",
-    "telefono": "9876543210",
-    "imagen": "/images/image 2.jpeg",
-    "contraseña": "cris"
+  "usuarios": [
+    {
+      "id": 1,
+      "nombre": "Samuel",
+      "telefono": "1234567890",
+      "imagen": "/images/image 1.jpeg",
+      "contraseña": "samuel"
     },
-{
-    "id": 3,
-    "nombre": "Ansu",
-    "telefono": "9876543210",
-    "imagen": "/images/image 3.jpeg",
-    "contraseña": "ansu"
+    {
+      "id": 2,
+      "nombre": "Cris",
+      "telefono": "9876543210",
+      "imagen": "/images/image 2.jpeg",
+      "contraseña": "cris"
+    },
+    {
+      "id": 3,
+      "nombre": "Ansu",
+      "telefono": "9876543210",
+      "imagen": "/images/image 3.jpeg",
+      "contraseña": "ansu"
+    },
+    {
+      "nombre": "Durley",
+      "telefono": "67543222",
+      "imagen": "data:image/png;base64,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",
+      "contraseña": "durley",
+      "id": 4
+    }
+  ],
+  "conversaciones": [
+    {
+      "idUser1": 2,
+      "idUser2": 1,
+      "mensaje": [
+        {
+          "sendBy": 2,
+          "fecha": "9/12/2023",
+          "hora": "10:21:41 AM",
+          "texto": "HOOOOOLLA"
+        }
+      ],
+      "id": 1
+    },
+    {
+      "idUser1": 2,
+      "idUser2": 4,
+      "mensaje": [
+        {
+          "sendBy": 2,
+          "fecha": "9/12/2023",
+          "hora": "10:57:29 AM",
+          "texto": "como vas?"
+        }
+      ],
+      "id": 2
+    },
+    {
+      "idUser1": 4,
+      "idUser2": 2,
+      "mensaje": [
+        {
+          "sendBy": 4,
+          "fecha": "9/12/2023",
+          "hora": "12:07:09 PM",
+          "texto": "Hola, Cris."
+        }
+      ],
+      "id": 3
+    },
+    {
+      "idUser1": 4,
+      "idUser2": 3,
+      "mensaje": [
+        {
+          "sendBy": 4,
+          "fecha": "9/12/2023",
+          "hora": "1:16:42 PM",
+          "texto": "Hola ANSU."
+        }
+      ],
+      "id": 4
+    },
+    {
+      "idUser1": 4,
+      "idUser2": 2,
+      "mensaje": [
+        {
+          "sendBy": 4,
+          "fecha": "9/12/2023",
+          "hora": "1:47:44 PM",
+          "texto": "holaaaaaaaaaaaaa"
+        }
+      ],
+      "id": 5
+    },
+    {
+      "idUser1": 3,
+      "idUser2": 4,
+      "mensaje": [
+        {
+          "sendBy": 3,
+          "fecha": "9/12/2023",
+          "hora": "2:00:04 PM",
+          "texto": "HolaDurleyyyy"
+        }
+      ],
+      "id": 6
+    },
+    {
+      "idUser1": 4,
+      "idUser2": 2,
+      "mensaje": [
+        {
+          "sendBy": 4,
+          "fecha": "9/12/2023",
+          "hora": "2:21:51 PM",
+          "texto": "que haces?"
+        }
+      ],
+      "id": 7
+    },
+    {
+      "idUser1": 4,
+      "idUser2": 1,
+      "mensaje": [
+        {
+          "sendBy": 4,
+          "fecha": "9/12/2023",
+          "hora": "2:44:55 PM",
+          "texto": "Hi"
+        }
+      ],
+      "id": 8
+    },
+    {
+      "idUser1": 4,
+      "idUser2": 1,
+      "mensaje": [
+        {
+          "sendBy": 4,
+          "fecha": "9/12/2023",
+          "hora": "2:47:27 PM",
+          "texto": "como vas?"
+        }
+      ],
+      "id": 9
+    },
+    {
+      "idUser1": 4,
+      "idUser2": 3,
+      "mensaje": [
+        {
+          "sendBy": 4,
+          "fecha": "9/12/2023",
+          "hora": "2:49:11 PM",
+          "texto": "Que cuentas?"
+        }
+      ],
+      "id": 10
+    },
+    {
+      "idUser1": 4,
+      "idUser2": 3,
+      "mensaje": [
+        {
+          "sendBy": 4,
+          "fecha": "9/12/2023",
+          "hora": "2:50:01 PM",
+          "texto": "como van las cosas?"
+        }
+      ],
+      "id": 11
+    }
+  ]
 }
-],
-"Conversaciones": [
-    
-]
-}
-
